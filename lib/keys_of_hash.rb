@@ -8,6 +8,6 @@ class Hash
         end
       end
     end
+    return newarr
   end
-  newarr
 end
