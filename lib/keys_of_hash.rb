@@ -3,6 +3,11 @@ class Hash
     newarr = []
     self.each do |key, value|
       arguments.each do |argument|
-        if 
+        if value.include?(argument)
+          newarr << key
+        end
+      end
+    end
   end
+  newarr
 end
